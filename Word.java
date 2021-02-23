@@ -10,9 +10,18 @@ public class Word
    																//why is it static?
    
    //add an instance variable
+   private String s;
 
-	//create a constructor
-	
+	//create 2 constructors
+	public Word()
+  {
+    s = "";
+  }
+
+  public Word(String str)
+  {
+    s = str;
+  }
 	//create other methods
 	//look at the sample runner code
 	//on the lab handout
